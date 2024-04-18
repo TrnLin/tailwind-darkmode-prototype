@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font/fontface.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Darkmode test</title>
+  </head>
+  <body class="bg-white">
+    <h1 class="font-logo text-5xl font-bold text-black">MUCK</h1>
+    <h1 class="font-hero text-4xl font-normal text-black">Font Test</h1>
+    <h1 class="font-sans text-3xl font-normal text-black">Font Test</h1>
+    <button
+      type="button"
+      id="theme-toggle"
+      class="bg-black px-5 py-2 text-white"
+    >
+      Light
+    </button>
+    <div class="size-20 bg-white"></div>
+    <div class="size-20 bg-orange-100"></div>
+    <div class="size-20 bg-orange-200"></div>
+    <div class="size-20 bg-blue-100"></div>
+    <div class="size-20 bg-blue-200"></div>
+
+    <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
